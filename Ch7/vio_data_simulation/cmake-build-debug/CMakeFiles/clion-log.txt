@@ -1,0 +1,36 @@
+/home/wrk/File/Software/clion-2020.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wrk/File/SLAM/My_course/VIO/Ch7/vio_data_simulation
+CMake Error at cmake_modules/FindEigen3.cmake:33 (file):
+  file failed to open for reading (No such file or directory):
+
+    /usr/include/eigen3/Eigen/src/Core/util/Macros.h
+Call Stack (most recent call first):
+  cmake_modules/FindEigen3.cmake:59 (_eigen3_check_version)
+  CMakeLists.txt:16 (find_package)
+
+
+-- Found OpenCV: /usr/local (found version "3.4.15") 
+CMake Error at cmake_modules/FindEigen3.cmake:33 (file):
+  file failed to open for reading (No such file or directory):
+
+    /usr/include/eigen3/Eigen/src/Core/util/Macros.h
+Call Stack (most recent call first):
+  cmake_modules/FindEigen3.cmake:59 (_eigen3_check_version)
+  /home/wrk/File/Software/clion-2020.2.5/bin/cmake/linux/share/cmake-3.17/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/local/share/sophus/cmake/SophusConfig.cmake:19 (find_dependency)
+  CMakeLists.txt:18 (FIND_PACKAGE)
+
+
+CMake Error at CMakeLists.txt:18 (FIND_PACKAGE):
+  Found package configuration file:
+
+    /usr/local/share/sophus/cmake/SophusConfig.cmake
+
+  but it set Sophus_FOUND to FALSE so package "Sophus" is considered to be
+  NOT FOUND.  Reason given by package:
+
+  Sophus could not be found because dependency Eigen3 could not be found.
+
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/wrk/File/SLAM/My_course/VIO/Ch7/vio_data_simulation/cmake-build-debug/CMakeFiles/CMakeOutput.log".

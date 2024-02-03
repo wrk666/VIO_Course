@@ -1,0 +1,165 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fd16f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd16f.dir/build.make CMakeFiles/cmTC_fd16f.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd16f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_fd16f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fd16f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd16f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_fd16f.dir/CheckFunctionExists.c.o -o cmTC_fd16f 
+/usr/bin/ld: CMakeFiles/cmTC_fd16f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_fd16f.dir/build.make:99: cmTC_fd16f] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_fd16f/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02f29/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02f29.dir/build.make CMakeFiles/cmTC_02f29.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02f29.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_02f29.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_02f29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02f29.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_02f29.dir/CheckFunctionExists.c.o -o cmTC_02f29  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_02f29.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_02f29.dir/build.make:102: cmTC_02f29] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_02f29/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0aee0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0aee0.dir/build.make CMakeFiles/cmTC_0aee0.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0aee0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_0aee0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0aee0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aee0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_0aee0.dir/CheckFunctionExists.c.o -o cmTC_0aee0  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_0aee0.dir/build.make:103: cmTC_0aee0] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0aee0/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59b34/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59b34.dir/build.make CMakeFiles/cmTC_59b34.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59b34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_59b34.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59b34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59b34.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_59b34.dir/CheckFunctionExists.c.o -o cmTC_59b34 
+/usr/bin/ld: CMakeFiles/cmTC_59b34.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_59b34.dir/build.make:99: cmTC_59b34] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_59b34/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc67a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc67a.dir/build.make CMakeFiles/cmTC_cc67a.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc67a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_cc67a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc67a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc67a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_cc67a.dir/CheckFunctionExists.c.o -o cmTC_cc67a  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_cc67a.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_cc67a.dir/build.make:102: cmTC_cc67a] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cc67a/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea702/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea702.dir/build.make CMakeFiles/cmTC_ea702.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea702.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_ea702.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea702
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea702.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_ea702.dir/CheckFunctionExists.c.o -o cmTC_ea702  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_ea702.dir/build.make:103: cmTC_ea702] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ea702/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31d5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31d5f.dir/build.make CMakeFiles/cmTC_31d5f.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31d5f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_31d5f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31d5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31d5f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_31d5f.dir/CheckFunctionExists.c.o -o cmTC_31d5f 
+/usr/bin/ld: CMakeFiles/cmTC_31d5f.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_31d5f.dir/build.make:99: cmTC_31d5f] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_31d5f/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_60e60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60e60.dir/build.make CMakeFiles/cmTC_60e60.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60e60.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_60e60.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_60e60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60e60.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_60e60.dir/CheckFunctionExists.c.o -o cmTC_60e60  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_60e60.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_60e60.dir/build.make:102: cmTC_60e60] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_60e60/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7198/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7198.dir/build.make CMakeFiles/cmTC_f7198.dir/build
+gmake[1]: Entering directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7198.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_f7198.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7198
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7198.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_f7198.dir/CheckFunctionExists.c.o -o cmTC_f7198  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_f7198.dir/build.make:103: cmTC_f7198] Error 1
+gmake[1]: Leaving directory '/home/wrk/File/SLAM/My_course/VIO/Ch7/VINS-Course/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f7198/fast] Error 2
+
+
+
